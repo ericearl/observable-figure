@@ -1,0 +1,21 @@
+abcd_cca_interactive.m
+
+This is the file from the orginal authors. The relvant section begins on line 238. You can see a call to netvis on line 367, I think that's the final call to compile the visualization.
+I'm including all the code in case they reference variables that you'll need. I can track down these variables for you, the full workspace of this script is massive.
+
+code_from_nik.m
+
+This is the bit of code that Nik wrote to do a rough plot of the data. You'll need to load top30edges_workspace.mat to run it
+
+top30edges_workspace.mat
+
+workspace to run code in code_from_nik.m
+
+abcd_cca_dir: overall directory of the project
+fslnets_mat: struct of results from fslnets
+grot: 200x200 weight matrix, this is the ultimate data to be displayed (I think)
+grotAA: correlation between SM weights from mode I and the connectivity data in N0
+SUMPICS: directory with png images of the ICA components (nodes)
+U: SM canonical weights from the main CCA analysis
+
+
